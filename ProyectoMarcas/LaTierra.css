@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'calibri light';
+}
+
+/*#bloke{
+    width: 80%;
+    margin: 0px auto;
+}*/
+
+#linea{
+    width: 100%;
+    height: 3px;
+    background: rgb(19, 3, 250);
+}
+
+#header{
+    width: 100%;
+    height: 90px;
+    background:rgb(19, 3, 250);
+    background:url(../ProyectoMarcas/imagenes/LaTierraParaheader.png)
+}
+
+#header #control1{
+    width: 1100px;
+    height: auto; overflow: hidden;
+    border: 0px solid; 
+    margin: auto;
+}
+
+#header #control1 #logo{
+    width: 200px; border: 0px solid;
+    float: left;
+}
+
+#header #control1 #logo h2,p{ 
+    color: #ffffff;
+}
+
+#header #control1 #logo p{
+    margin-top: -20px;
+}
+
+/*---------------menu-------------------*/
+
+#header #menu{
+    width: 880px;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid; color:black;
+    margin: 20px 0px;
+    float: right;
+}
+
+#header #menu a{
+    color: #ffffff;
+}
+    
+#header #menu ul li{
+    display: inline-block;
+}
+
+#header #menu ul li{
+    color: #f5ebeb;
+    padding: 7px 20px;
+}
+
+#header #menu ul li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+    font-size: 15px;
+}
+
+/*-----------------presentacion---------------*/
+
+#presentacion{
+    width: 100%;
+    height: auto; overflow: hidden;
+    background: #000000;
+}
+
+#presentacion #control2{
+    width: 1100px;
+    margin: auto;
+}
+
+#presentacion #control2 #izquierda{
+    width: 290px;
+    border: 1px solid; color: blue;
+    padding:6px;
+    float: left;
+    background-color: rgb(59, 55, 55);
+}
+
+#presentacion #control2 #izquierda h2{
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+.descripcionP{
+    color: #0b19dd;
+}
+
+.boton{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.boton:hover{
+    background: #fc0808;
+}
+
+img {
+    width: 670px;
+    height: 450px;
+    border: 0px solid #f30e0e ;
+    margin: 20px 0px;
+    float: right;
+}
+/*-------------------bottons-----------------------*/
+.botton1{
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.botton1:hover{
+    color: cornsilk;
+    background: #3508fc;
+}
+
+/*--------------------------imagenes-----------------------*/
+
+#imagenes{
+    width: 100%;
+    height: 150px;
+    background:rgb(104, 30, 46);
+    background: url(../ProyectoMarcas/imagenes/LaTierraParaheader.png);
+    
+}
